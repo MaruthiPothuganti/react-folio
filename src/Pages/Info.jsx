@@ -31,7 +31,7 @@ export const Info = () => {
       <article className="w-[90%] md:w-[auto] grid gap-8 mb-[10%] mt-[10%]">
         <h1 className="text-4xl md:text-5xl text-center">Meet Maruthi</h1>
         <section className="">
-          <div className="max-w-2xl p-2  rounded-lg border-2 border-stone-900 hover:border-stone-800">
+          <div className="md:max-w-2xl p-2  rounded-lg border-2 border-stone-900 hover:border-stone-800">
             <div className="">
               <img
                 className="w-full h-[50%] rounded-lg"
@@ -53,7 +53,7 @@ export const Info = () => {
               <hr className="border-stone-900" />
               <div className="my-3">
                 <h2 className="text-2xl font-bold my-2">Experience</h2>
-                <div className="flex my-4 gap-2">
+                <div className="flex my-4 flex-wrap gap-2">
                   <div className="flex p-1 gap-2">
                     <div className="p-4 rounded-full border-2 border-stone-900">
                       <SiInfosys size={46} />
@@ -81,7 +81,7 @@ export const Info = () => {
               </div>
               <div className="my-3">
                 <h2 className="text-2xl font-bold my-2">Education</h2>
-                <div className="flex my-4 gap-2">
+                <div className="flex my-4 flex-wrap gap-2">
                   <div className="flex p-1 gap-2">
                     <div className="p-4 rounded-full border-2 border-stone-900">
                       <FaUserGraduate size={46} />
