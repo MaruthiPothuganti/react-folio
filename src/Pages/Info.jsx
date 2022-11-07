@@ -10,6 +10,7 @@ import {
   TbBrandJavascript,
   FaUserGraduate,
   FaGraduationCap,
+  SiNintendo,
 } from "../Components/Icons";
 import { Link } from "react-router-dom";
 
@@ -52,7 +53,7 @@ export const Info = () => {
               <hr className="border-stone-900" />
               <div className="my-3">
                 <h2 className="text-2xl font-bold my-2">Experience</h2>
-                <div className="flex my-4">
+                <div className="flex my-4 gap-2">
                   <div className="flex p-1 gap-2">
                     <div className="p-4 rounded-full border-2 border-stone-900">
                       <SiInfosys size={46} />
@@ -61,6 +62,18 @@ export const Info = () => {
                       <h3 className="font-bold text-xl">Infosys</h3>
                       <p className="text-slate-400">
                         Systems Engineer • 2021-2022
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex p-1 gap-2">
+                    <div className="p-4 rounded-full border-2 border-stone-900">
+                      <SiNintendo size={46} />
+                    </div>
+                    <div className="self-center">
+                      <h3 className="font-bold text-xl">NeoG (BootCamp)</h3>
+                      <p className="text-slate-400">
+                        Advance Frontend Developer • 2022(Jan)-2022(Aug)
                       </p>
                     </div>
                   </div>

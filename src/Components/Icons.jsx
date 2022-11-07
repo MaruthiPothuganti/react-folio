@@ -3,7 +3,7 @@ export { BsLightningCharge, BsPen } from "react-icons/bs";
 export { RiGhostSmileLine } from "react-icons/ri";
 export { BiMessage } from "react-icons/bi";
 export { FiArrowRight, FiArrowUpRight } from "react-icons/fi";
-export { SiInfosys, SiRedux, SiNetlify } from "react-icons/si";
+export { SiInfosys, SiRedux, SiNetlify, SiNintendo } from "react-icons/si";
 export {
   TbBrandJavascript,
   TbBrandHtml5,
