@@ -51,7 +51,7 @@ export const Contact = () => {
             <FiArrowUpRight className="inline-flex" />
           </a>
           <a
-            href="https://twitter.com/maruthithedev"
+            href="https://twitter.com/the_maruthi"
             target="_blank"
             className="hover:text-slate-400"
             rel="noreferrer"
